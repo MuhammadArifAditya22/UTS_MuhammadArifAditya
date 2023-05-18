@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:background="@drawable/bg1"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+      />
+    <TextView
+        android:id="@+id/njm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Nama data"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"/>
+
+    <ImageView
+        android:layout_marginLeft="15dp"
+        android:paddingTop="40dp"
+        android:id="@+id/imgjm"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_launcher_background" />
+
+
+    <TextView
+        android:id="@+id/cjm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/njm"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginTop="34dp"
+        android:layout_toRightOf="@+id/imgjm"
+        android:paddingLeft="10dp"
+        android:text="Luas"
+        android:textColor="#FFFF"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/djm"
+        android:paddingLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cjm"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/imgjm"
+        android:text="Keliling"
+        android:textColor="#FFFF"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/djm2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgjm"
+        android:layout_marginLeft="-150dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/imgjm"
+        android:text="Deskripsi2"
+        android:textColor="#FFFF"
+        android:textSize="15dp" />
+
+</RelativeLayout>
